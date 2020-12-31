@@ -6,7 +6,7 @@ const messageThree = document.querySelector('#m3');
 const messageFour = document.querySelector('#m4');
 
 const fetchData = function(location) {
-    const url = `http://localhost:3000/weather?address=${location}`;
+    const url = `/weather?address=${location}`;
     messageOne.textContent = 'Loading...';
     messageTwo.textContent = '';
     messageThree.textContent = '';
