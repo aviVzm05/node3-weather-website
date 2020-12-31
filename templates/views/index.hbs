@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/weather.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/app.js" defer></script>
+    <title>Weather</title>
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+
+        <form action="">
+            <input type="text" placeholder="Locaiton">
+            <button>Search</button>
+        </form>
+        <p id="m1"></p>
+        <p id="m2"></p>
+        <p id="m3"></p>
+        <p id="m4"></p>
+    </div>
+
+    {{>footer}}
+</body>
+</html>
